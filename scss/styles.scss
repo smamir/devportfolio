@@ -34,8 +34,12 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+//$base-color: #3498db;
+//$base-color-hover: darken($base-color, 10%);
+
+$base-color: #0a96c5;
 $base-color-hover: darken($base-color, 10%);
+//$base-color-contacts: darken($base-color, 15%);
 
 // Define background colors
 $background: #fff;
@@ -372,7 +376,7 @@ footer {
         color: #fff;
         font-weight: 900;
         font-size: 5em;
-        text-transform: uppercase;
+        //text-transform: uppercase;
         letter-spacing: 0.05em;
         line-height: 0.9em;
     }
@@ -731,6 +735,7 @@ footer {
 #contact {
     padding: 50px 15px;
     background: $base-color;
+    //background: $base-color-contacts;
     text-align: center;
 
     h2 {
