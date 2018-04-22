@@ -39,7 +39,7 @@
 
 $base-color: #0a96c5;
 $base-color-hover: darken($base-color, 10%);
-//$base-color-contacts: darken($base-color, 15%);
+$base-color-contacts: lighten($base-color, 15%);
 
 // Define background colors
 $background: #fff;
